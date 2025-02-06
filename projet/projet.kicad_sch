@@ -2985,6 +2985,12 @@
 		(uuid "2382773a-1e3e-42c7-ad42-e5029067180e")
 	)
 	(junction
+		(at 46.99 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390c0e2b-805c-4171-a17f-01deab46edb9")
+	)
+	(junction
 		(at 83.82 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3001,6 +3007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b5e95b4-7172-47a6-b99f-afdbb507a4de")
+	)
+	(junction
+		(at 54.61 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83583e46-2c23-446f-8724-b24fa2acf971")
 	)
 	(junction
 		(at 101.6 147.32)
@@ -3456,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 185.42) (xy 54.61 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a474e36-f41c-43c2-ab86-b3827e34b7bd")
+	)
+	(wire
+		(pts
 			(xy 29.21 29.21) (xy 29.21 34.29)
 		)
 		(stroke
@@ -3593,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "c96a053a-cfca-4c0e-8eef-41eed7880b62")
+	)
+	(wire
+		(pts
+			(xy 46.99 187.96) (xy 46.99 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5c525f-8ed2-447d-9cc6-88af7ba85946")
 	)
 	(wire
 		(pts
@@ -4733,6 +4765,100 @@
 		)
 	)
 	(symbol
+		(lib_id "codium_Capacitors:C_0603_10uF_10V")
+		(at 50.8 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60020e36-f6c3-43a5-a278-52a778b4f30d")
+		(property "Reference" "C302"
+			(at 37.084 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF 10V"
+			(at 44.704 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "codium_Basics:C0603"
+			(at 54.61 188.2648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CODIUM_DOC_DIR}\\Capacitors\\Samsung MLCC All.pdf"
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC X5R ±20% [RUNNER]"
+			(at 50.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Samsung"
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MP8NNNC"
+			(at 56.515 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "C_0603_10uF_10V"
+			(at 48.26 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6afd0f5-096e-463a-8fbd-d6dfa51e76e9")
+		)
+		(pin "2"
+			(uuid "43853002-6a44-4058-b096-58c925eabfea")
+		)
+		(instances
+			(project "projet"
+				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "codium_Power:GND")
 		(at 29.21 44.45 0)
 		(unit 1)
@@ -5055,7 +5181,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6759b6ad-b3da-43db-ba23-32e73571c116")
 		(property "Reference" "D303"
 			(at 50.8 179.07 0)
@@ -5066,7 +5191,7 @@
 			)
 		)
 		(property "Value" "TVS 5V"
-			(at 50.8 181.61 0)
+			(at 50.8 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
