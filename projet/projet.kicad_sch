@@ -4006,7 +4006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "codium_Pads:TestPoint_Pad_D2.0mm"
 			(at 109.22 160.02 0)
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "codium_Pads:TestPoint_Pad_D2.0mm"
 			(at 21.59 29.21 0)
 			(effects
 				(font
@@ -6027,7 +6027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "codium_Pads:TestPoint_Pad_D2.0mm"
 			(at 39.37 29.21 0)
 			(effects
 				(font
