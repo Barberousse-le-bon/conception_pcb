@@ -679,6 +679,431 @@
 				)
 			)
 		)
+		(symbol "codium_Connectors:PLUG_P3.81_1x02_BORNIER_VIS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "PLUG"
+				(at -4.064 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PLUG_P3.81_1x02_BORNIER_VIS"
+				(at -3.302 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CODIUM_DOC_DIR}\\Connectors\\Plug_Ningbo-Kangnex-Elec-BORNIER_VIS.pdf"
+				(at 4.318 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiche bornier débrochable à vis Générique"
+				(at 1.778 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAN" "Ningbo Kangnex Elec "
+				(at 4.318 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "WJ15EDGK-3.81-2P"
+				(at 4.318 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "PLUG_P3.81_1x02_BORNIER_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "WR-TBL 3.81 P3.81 Debrochable Embase Bornier Plug"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PLUG_P3.81_1x02_BORNIER_VIS_0_0"
+				(text ""
+					(at 1.27 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "PLUG_P3.81_1x02_BORNIER_VIS_0_1"
+				(rectangle
+					(start -2.54 0.635)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 3.81)
+					(end -0.635 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 3.81)
+					(end 1.905 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "codium_Connectors:PLUG_P3.81_1x04_BORNIER_VIS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "PLUG"
+				(at -6.985 -0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PLUG_P3.81_1x04_BORNIER_VIS"
+				(at 6.35 -0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CODIUM_DOC_DIR}\\Connectors\\Plug_Ningbo-Kangnex-Elec-BORNIER_VIS.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiche bornier débrochable à vis Générique"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAN" "Ningbo Kangnex Elec "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "WJ15EDGK-3.81-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "PLUG_P3.81_1x04_BORNIER_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "WR-TBL 3.81 P3.81 Debrochable Embase Bornier Plug"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PLUG_P3.81_1x04_BORNIER_VIS_0_0"
+				(text ""
+					(at 1.27 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "PLUG_P3.81_1x04_BORNIER_VIS_0_1"
+				(rectangle
+					(start -5.08 0.635)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.445 3.81)
+					(end -3.175 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 3.81)
+					(end -0.635 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.175) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 3.81)
+					(end 1.905 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 3.81)
+					(end 4.445 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "codium_Diodes:TVS_5V_BIDIR_SOD323"
 			(pin_numbers hide)
 			(pin_names
@@ -4221,7 +4646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05683de1-fe58-4017-9356-452dd60471fb")
-		(property "Reference" "TP303"
+		(property "Reference" "TP304"
 			(at 97.282 159.258 0)
 			(effects
 				(font
@@ -4272,7 +4697,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "TP303")
+					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1511a1f1-4a62-4569-945c-e2a53bcf729e")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 127 170.18 0)
 			(effects
 				(font
@@ -4338,7 +4763,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0302")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "175325e1-0c0a-477b-b91c-fe6de6491787")
-		(property "Reference" "R302"
+		(property "Reference" "R301"
 			(at 115.57 160.02 90)
 			(effects
 				(font
@@ -4433,7 +4858,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "R302")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -4550,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f437e2b-b65d-4da5-b64e-aaaf0fbb720a")
-		(property "Reference" "R301"
+		(property "Reference" "R302"
 			(at 121.92 154.9399 0)
 			(effects
 				(font
@@ -4631,7 +5056,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "R301")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -4647,7 +5072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2910a866-0469-43c9-96b5-de79eb533871")
-		(property "Reference" "IR1"
+		(property "Reference" "IR301"
 			(at 110.49 106.68 90)
 			(effects
 				(font
@@ -4732,7 +5157,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "IR1")
+					(reference "IR301")
 					(unit 1)
 				)
 			)
@@ -4748,7 +5173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d582feb-7a83-4c1b-9c76-93bdd039ccc6")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0302"
 			(at 25.4 168.91 0)
 			(effects
 				(font
@@ -4798,7 +5223,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0308")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -4814,7 +5239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43de4e27-7409-43d6-83b1-c4090c3c2c0d")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0305"
 			(at 57.15 35.56 0)
 			(effects
 				(font
@@ -4864,7 +5289,7 @@
 		(instances
 			(project "projet"
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0303")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -4880,7 +5305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5709e2f0-82a6-4011-b5db-0c8364ed0b22")
-		(property "Reference" "C301"
+		(property "Reference" "C302"
 			(at 115.57 139.7 90)
 			(effects
 				(font
@@ -4959,7 +5384,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "C301")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -4974,7 +5399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60020e36-f6c3-43a5-a278-52a778b4f30d")
-		(property "Reference" "C302"
+		(property "Reference" "C301"
 			(at 37.084 190.5 90)
 			(effects
 				(font
@@ -5053,7 +5478,7 @@
 		(instances
 			(project "projet"
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "C302")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60c9d7e9-1726-4f9e-bfc4-f53a66336760")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0303"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -5119,7 +5544,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0305")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -5575,7 +6000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85467ad7-afb5-48be-aa91-7ff447be96c3")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0308"
 			(at 101.6 153.67 0)
 			(effects
 				(font
@@ -5625,7 +6050,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0301")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -5640,7 +6065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4195738-82c3-4650-ab49-dd78af47a3c8")
-		(property "Reference" "TP302"
+		(property "Reference" "TP301"
 			(at 16.002 24.13 0)
 			(effects
 				(font
@@ -5691,7 +6116,98 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "TP302")
+					(reference "TP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "codium_Connectors:PLUG_P3.81_1x02_BORNIER_VIS")
+		(at 34.29 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a63b6a25-967b-4e4b-8270-86d0d8fd336c")
+		(property "Reference" "PLUG301"
+			(at 38.1 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PLUG_P3.81_1x02_BORNIER_VIS"
+			(at 27.178 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CODIUM_DOC_DIR}\\Connectors\\Plug_Ningbo-Kangnex-Elec-BORNIER_VIS.pdf"
+			(at 27.178 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiche bornier débrochable à vis Générique"
+			(at 27.178 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Ningbo Kangnex Elec "
+			(at 27.178 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGK-3.81-2P"
+			(at 27.178 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "PLUG_P3.81_1x02_BORNIER_VIS"
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
+					(reference "PLUG301")
 					(unit 1)
 				)
 			)
@@ -5707,7 +6223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8ca313-af77-4ff3-9460-8a7d27aaa541")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0307"
 			(at 83.82 156.21 0)
 			(effects
 				(font
@@ -5757,7 +6273,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0314")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -5868,7 +6384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3e4de2-d658-4934-9093-0f0217c640d1")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0306"
 			(at 58.42 191.77 0)
 			(effects
 				(font
@@ -5918,7 +6434,7 @@
 		(instances
 			(project "projet"
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0316")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -6129,7 +6645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee224c0-bcda-424b-8279-e83bce2f5cae")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0304"
 			(at 43.18 191.77 0)
 			(effects
 				(font
@@ -6179,7 +6695,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0307")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -6301,7 +6817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f245e3db-513a-4af5-9054-8dc07ce827bf")
-		(property "Reference" "TP304"
+		(property "Reference" "TP303"
 			(at 28.448 181.61 0)
 			(effects
 				(font
@@ -6352,7 +6868,98 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "TP304")
+					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "codium_Connectors:PLUG_P3.81_1x04_BORNIER_VIS")
+		(at 71.12 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3045f38-584e-4e70-811e-7a898754e509")
+		(property "Reference" "PLUG302"
+			(at 78.74 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PLUG_P3.81_1x04_BORNIER_VIS"
+			(at 77.47 183.515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CODIUM_DOC_DIR}\\Connectors\\Plug_Ningbo-Kangnex-Elec-BORNIER_VIS.pdf"
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiche bornier débrochable à vis Générique"
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Ningbo Kangnex Elec "
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGK-3.81-4P"
+			(at 71.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "PLUG_P3.81_1x04_BORNIER_VIS"
+			(at 78.74 183.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
+					(reference "PLUG302")
 					(unit 1)
 				)
 			)
@@ -6368,7 +6975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f425f10a-3f55-42cb-bb98-edcbe06469e9")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0301"
 			(at 17.78 43.18 0)
 			(effects
 				(font
@@ -6418,7 +7025,7 @@
 		(instances
 			(project ""
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "#PWR0306")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -6433,7 +7040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f968d509-c3ea-44c2-a7dd-b76dcc539c57")
-		(property "Reference" "TP301"
+		(property "Reference" "TP302"
 			(at 33.782 24.13 0)
 			(effects
 				(font
@@ -6484,7 +7091,7 @@
 		(instances
 			(project "projet"
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
-					(reference "TP301")
+					(reference "TP302")
 					(unit 1)
 				)
 			)

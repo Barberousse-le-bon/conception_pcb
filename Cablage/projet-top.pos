@@ -1,0 +1,17 @@
+### Footprint positions - created on 2025-02-11T11:49:11+0100 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                 PosX       PosY       Rot  Side
+C301      10uF_10V                  C0603                91.4000   -89.6000   90.0000  top
+C302      10uF_10V                  C0603                90.0557   -78.1764   90.0000  top
+D301      TVS_5V                    SOD323_NP            91.0000   -61.0000   90.0000  top
+D302      TVS_5V                    SOD323_NP            91.5000   -96.0000   90.0000  top
+D303      TVS_5V                    SOD323_NP            91.4000   -92.6000  -90.0000  top
+F301      1.1A                      R1812L               84.6000   -62.9000    0.0000  top
+IR301     IR_REMOTE_RECEIVER        SMD-4P_4x5mm         82.8000   -70.8000    0.0000  top
+Q301      MOS_P_20V_2A              SOT23                79.5000   -56.5000    0.0000  top
+R301      100k                      R0402                86.7500   -84.0000   90.0000  top
+R302      100R                      R0402                90.8000   -81.0000    0.0000  top
+U301      Raspberry-Pi-Pico_Linked  Raspberry-Pi-Pico    64.0000   -78.5000    0.0000  top
+## End
