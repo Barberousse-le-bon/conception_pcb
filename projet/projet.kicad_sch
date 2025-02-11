@@ -851,6 +851,179 @@
 				)
 			)
 		)
+		(symbol "codium_Misc:Polyswitch_1812_1.1A_24V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 1.905 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.1A"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "codium_Basics:R1812L"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CODIUM_DOC_DIR}\\Misc\\2304140030_Littelfuse-1812L110-24DR_C207066.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polyswitch 1812 1.1A 24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAN" "Littlefuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1812L110/24DR "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "Polyswitch_1.1A_24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyswitch_1812_1.1A_24V_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyswitch_1812_1.1A_24V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "codium_Modules:Raspberry-Pi-Pico_Linked"
 			(pin_names
 				(offset 1.016)
@@ -3021,6 +3194,12 @@
 		(uuid "83583e46-2c23-446f-8724-b24fa2acf971")
 	)
 	(junction
+		(at 21.59 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863a45e3-8a86-4145-9878-28dd26843525")
+	)
+	(junction
 		(at 101.6 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3055,12 +3234,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d1a5fd5-2aa1-4b49-bb36-6fc3c6f8ab41")
-	)
-	(junction
-		(at 21.59 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c62c9d57-f33b-4f0e-b9d9-04e228da5b04")
 	)
 	(junction
 		(at 36.83 173.99)
@@ -3266,6 +3439,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 39.37) (xy 17.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef6809d-315e-4ff2-9c30-b9143be6ea79")
+	)
+	(wire
+		(pts
 			(xy 110.49 166.37) (xy 111.76 166.37)
 		)
 		(stroke
@@ -3356,16 +3539,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 39.37) (xy 21.59 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7f44a8-8303-4f4d-8db1-9907c5ac994c")
-	)
-	(wire
-		(pts
 			(xy 26.67 27.94) (xy 26.67 29.21)
 		)
 		(stroke
@@ -3433,6 +3606,16 @@
 			(type default)
 		)
 		(uuid "590ef074-f24b-40bd-a657-d6f06a73384b")
+	)
+	(wire
+		(pts
+			(xy 21.59 41.91) (xy 17.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5917ad2d-5261-4541-bcc7-6ffba555af08")
 	)
 	(wire
 		(pts
@@ -3523,6 +3706,16 @@
 			(type default)
 		)
 		(uuid "8ee77940-efd0-4768-97e8-cdc579ecabfc")
+	)
+	(wire
+		(pts
+			(xy 21.59 34.29) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912a21f4-1a38-4ba2-a3ec-919e2d1df674")
 	)
 	(wire
 		(pts
@@ -3663,16 +3856,6 @@
 			(type default)
 		)
 		(uuid "d72ce448-e156-4b54-b6ed-a2fa89c2dd4c")
-	)
-	(wire
-		(pts
-			(xy 21.59 39.37) (xy 21.59 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dced83d8-7843-4a81-9d11-5197c5759081")
 	)
 	(wire
 		(pts
@@ -5736,6 +5919,104 @@
 			(project "projet"
 				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
 					(reference "#PWR0316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "codium_Misc:Polyswitch_1812_1.1A_24V")
+		(at 21.59 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce9d5fcd-4eb8-47fc-a640-9b603f47bf4c")
+		(property "Reference" "F301"
+			(at 24.13 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.1A"
+			(at 24.13 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "codium_Basics:R1812L"
+			(at 22.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CODIUM_DOC_DIR}\\Misc\\2304140030_Littelfuse-1812L110-24DR_C207066.pdf"
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polyswitch 1812 1.1A 24V"
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Littlefuse"
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1812L110/24DR "
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "Polyswitch_1.1A_24V"
+			(at 21.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4577c672-3c6a-49e9-8832-d0738df9a398")
+		)
+		(pin "2"
+			(uuid "1f1a1afd-61e3-438e-9dd0-e1869b562c60")
+		)
+		(instances
+			(project ""
+				(path "/a8729fd7-f378-4132-940e-1f2a87480560"
+					(reference "F301")
 					(unit 1)
 				)
 			)
