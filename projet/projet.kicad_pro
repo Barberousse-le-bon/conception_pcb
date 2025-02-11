@@ -466,8 +466,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers/",
-      "pos_files": "",
+      "plot": "../Cablage/",
+      "pos_files": "../Cablage/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -477,7 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 300,
-    "bom_export_filename": "..\\cablage.csv",
+    "bom_export_filename": "..\\Cablage\\compo.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
